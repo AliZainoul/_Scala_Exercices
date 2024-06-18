@@ -1,6 +1,10 @@
 # In order to compile an exercice:
 
 ```
+cd set1
+```
+
+```
 scalac ExerciceN.scala && scala ExerciceN
 ```
 
