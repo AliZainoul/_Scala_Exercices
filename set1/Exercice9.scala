@@ -13,10 +13,10 @@ object Exercice9 {
     }
 
     // Example list of strings
-    val strs = List("Scala", "is", "awesome", "and", "powerful")
+    val strings = List("Scala", "is", "awesome", "and", "powerful")
 
     // Function Call
-    val maximumLength = maxLength(strs)
+    val maximumLength = maxLength(strings)
 
     // Display the result
     println("Displaying result: ")
