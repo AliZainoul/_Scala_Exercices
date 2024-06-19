@@ -10,6 +10,8 @@ object Exercice3 {
       val lengths = strings.map(_.length)
       // Sum the lengths using reduce
       lengths.reduce((a, b) => a + b)
+      // Equivalent to :
+      // lengths.reduce(_+_)
     }
 
     // Example list of strings
