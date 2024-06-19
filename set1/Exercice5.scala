@@ -7,13 +7,13 @@ object Exercice5 {
      */
     def sumEvens(numbers: List[Int]): Int = {
       // Filter to retain only even numbers
-      val evenNumbers = numbers.filter(x => x % 2 == 0)
+      val evenNumbers = numbers.filter(_ % 2 == 0)
       // Equivalent to:
-      // val evenNumbers = numbers.filter(_%2 == 0)
+      // val evenNumbers = numbers.filter(x => x % 2 == 0)
       // Compute the sum of the even numbers using reduce
-      evenNumbers.reduce((a, b) => a + b)
+      evenNumbers.reduce(_ + _)
       // Equivalent to:
-      // evenNumbers.reduce(_+_)
+      // evenNumbers.reduce((a, b) => a + b)
     }
 
     // Example list of integers

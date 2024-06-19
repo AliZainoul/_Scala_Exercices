@@ -9,9 +9,9 @@ object Exercice3 {
       // Get the length of each string in the list using map
       val lengths = strings.map(_.length)
       // Sum the lengths using reduce
-      lengths.reduce((a, b) => a + b)
+      lengths.reduce(_ + _)
       // Equivalent to :
-      // lengths.reduce(_+_)
+      // lengths.reduce((a, b) => a + b)
     }
 
     // Example list of strings

@@ -8,10 +8,11 @@ object Exercice2 {
     def sumSquares(numbers: List[Int]): Int = {
       // Square each element in the list using map
       val squares = numbers.map(x => x * x)
+
       // Sum the squared elements using reduce
-      squares.reduce((a, b) => a + b)
+      squares.reduce(_ + _)
       // Equivalent to :
-      // squares.reduce(_+_)
+      // squares.reduce((a, b) => a + b)
     }
 
     // Example list of integers

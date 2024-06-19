@@ -6,7 +6,9 @@ object Exercice1 {
      * @return A list where each element is the square of the original element.
      */
     def squares(numbers: List[Int]): List[Int] = {
-      numbers.map(x => x * x)
+      numbers.map(scala.math.pow(_, 2).toInt)
+      // Equivalent to:
+      // numbers.map(x => x * x)
     }
 
     // Example list of integers

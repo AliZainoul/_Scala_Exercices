@@ -8,6 +8,8 @@ object Exercice6 {
     def doubleElements(numbers: List[Int]): List[Int] = {
       // Double each element in the list using map
       numbers.map(x => x * 2)
+      // Equivalent to:
+      // numbers.map(_ * 2)
     }
 
     // Example list of integers

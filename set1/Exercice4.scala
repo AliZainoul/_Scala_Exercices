@@ -7,9 +7,9 @@ object Exercice4 {
      */
     def listProduct(numbers: List[Int]): Int = {
       // Compute the product of all elements using reduce
-      numbers.reduce((a, b) => a * b)
+      numbers.reduce(_ * _)
       // Equivalent to:
-      // numbers.reduce(_*_)
+      // numbers.reduce((a, b) => a * b)
     }
 
     // Example list of integers

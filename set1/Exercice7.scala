@@ -7,7 +7,9 @@ object Exercice7 {
      */
     def concatenateStrings(strings: List[String]): String = {
       // Concatenate all strings in the list using reduce
-      strings.reduce((a, b) => a + b)
+      strings.reduce(_ + _)
+      // Equivalent to:
+      // strings.reduce((a, b) => a + b)
     }
 
     // Example list of strings

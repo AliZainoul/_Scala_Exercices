@@ -7,9 +7,14 @@ object Exercice10 {
      */
     def countOdds(numbers: List[Int]): Int = {
       // Filter to retain only odd numbers
-      val oddNumbers = numbers.filter(x => x % 2 != 0)
-      // Count the number of odd elements using reduce
-      oddNumbers.map(_ => 1).reduce((a, b) => a + b)
+      val oddNumbers = numbers.filter(_ % 2 != 0)
+      // Equivalent to:
+      // val oddNumbers = numbers.filter(x => x % 2 != 0)
+      
+      // Count the number of odd elements using map then reduce
+      oddNumbers.map(_ => 1).reduce(_ + _)
+      // Equivalent to:
+      // oddNumbers.map(_ => 1).reduce((a, b) => a + b)
     }
 
     // Example list of integers

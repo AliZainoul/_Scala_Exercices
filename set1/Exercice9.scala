@@ -8,6 +8,7 @@ object Exercice9 {
     def maxLength(strings: List[String]): Int = {
       // Get the length of each string in the list using map
       val lengths = strings.map(_.length)
+      
       // Find the maximum length using reduce
       lengths.reduce((a, b) => if (a > b) a else b)
     }

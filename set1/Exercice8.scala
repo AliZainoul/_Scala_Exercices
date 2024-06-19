@@ -7,7 +7,10 @@ object Exercice8 {
      */
     def averageList(numbers: List[Int]): Double = {
       // Calculate the sum of all elements using reduce
-      val sum = numbers.reduce((a, b) => a + b)
+      val sum = numbers.reduce(_ + _)
+      // Equivalent to:
+      // val sum = numbers.reduce((a, b) => a + b)
+    
       // Calculate the average using map and reduce
       sum.toDouble / numbers.length
     }
