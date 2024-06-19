@@ -13,7 +13,7 @@ object Exercice5 {
       // Compute the sum of the even numbers using reduce
       evenNumbers.reduce((a, b) => a + b)
       // Equivalent to:
-      // evenNumbers.reduce(_*_)
+      // evenNumbers.reduce(_+_)
     }
 
     // Example list of integers
