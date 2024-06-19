@@ -10,6 +10,8 @@ object Exercice2 {
       val squares = numbers.map(x => x * x)
       // Sum the squared elements using reduce
       squares.reduce((a, b) => a + b)
+      // Equivalent to :
+      // squares.reduce(_+_)
     }
 
     // Example list of integers
