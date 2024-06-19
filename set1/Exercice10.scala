@@ -19,6 +19,7 @@ object Exercice10 {
     val countOfOdds = countOdds(nums)
 
     // Display the result
+    println("----- Exercice 10 -----")
     println("Displaying result: ")
     println(countOfOdds)
   }

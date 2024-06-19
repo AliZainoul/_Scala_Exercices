@@ -17,6 +17,7 @@ object Exercice6 {
     val doubledNums = doubleElements(nums)
 
     // Display the result
+    println("----- Exercice 6 -----")
     println("Displaying result: ")
     println(doubledNums)
   }

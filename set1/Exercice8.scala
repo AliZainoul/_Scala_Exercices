@@ -19,6 +19,7 @@ object Exercice8 {
     val average = averageList(nums)
 
     // Display the result
+    println("----- Exercice 8 -----")
     println("Displaying result: ")
     println(average)
   }

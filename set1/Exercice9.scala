@@ -19,6 +19,7 @@ object Exercice9 {
     val maximumLength = maxLength(strings)
 
     // Display the result
+    println("----- Exercice 9 -----")
     println("Displaying result: ")
     println(maximumLength)
   }

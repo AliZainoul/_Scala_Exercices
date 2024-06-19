@@ -17,6 +17,7 @@ object Exercice7 {
     val concatenatedString = concatenateStrings(strs)
 
     // Display the result
+    println("----- Exercice 7 -----")
     println("Displaying result: ")
     println(concatenatedString)
   }

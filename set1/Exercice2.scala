@@ -19,6 +19,7 @@ object Exercice2 {
     val sumOfSquares = sumSquares(nums)
 
     // Display the result
+    println("----- Exercice 2 -----")
     println("Displaying result: ")
     println(sumOfSquares)
   }

@@ -17,6 +17,7 @@ object Exercice4 {
     val product = listProduct(nums)
 
     // Display the result
+    println("----- Exercice 4 -----")
     println("Displaying result: ")
     println(product)
   }

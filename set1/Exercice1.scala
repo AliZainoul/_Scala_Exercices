@@ -16,6 +16,7 @@ object Exercice1 {
     val squaredNums = squares(nums)
 
     // Display the result
+    println("----- Exercice 1 -----")
     println("Displaying result: ")
     println(squaredNums)
   }

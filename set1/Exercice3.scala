@@ -19,6 +19,7 @@ object Exercice3 {
     val sumLengths = totalLength(strs)
 
     // Display the result
+    println("----- Exercice 3 -----")
     println("Displaying result: ")
     println(sumLengths)
   }
