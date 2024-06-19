@@ -7,6 +7,7 @@ object Exercice11 {
      */
     def flattenList(lists: List[List[Int]]): List[Int] = {
       // Use flatMap to flatten the list of lists
+      // https://stackoverflow.com/questions/1797502/is-there-a-scala-identity-function
       lists.flatMap(list => list)
     }
 
