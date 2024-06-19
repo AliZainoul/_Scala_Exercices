@@ -40,4 +40,10 @@ This repository contains Scala exercises covering fundamental concepts and advan
 ## Getting Started
 
 To get started with the exercises:
+- Clone this repository to your local machine:
+  ```bash
+   git clone https://github.com/AliZainoul/_Scala_Exercices
+   cd _Scala_Exercices
+   ```
+
 - Read the README.md for each set of exercices. 
