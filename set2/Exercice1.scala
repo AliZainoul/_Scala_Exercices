@@ -1,6 +1,5 @@
 object Exercice1 {
   def main(args: Array[String]): Unit = {
-    import scala.collection.mutable.ListBuffer
 
     /**
      * Function to return all possible combinations of n elements from a list.
