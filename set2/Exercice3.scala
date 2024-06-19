@@ -9,7 +9,10 @@ object Exercice3 {
       // Filter to retain only positive numbers
       val positiveNumbers = numbers.filter(_ > 0)
       // Compute the sum of the positive numbers using reduce
-      positiveNumbers.reduce((a, b) => a + b)
+      positiveNumbers.reduce(_+_)
+      // Equivalent to:
+      // positiveNumbers.reduce((a, b) => a + b)
+
     }
 
     // Example list of integers
