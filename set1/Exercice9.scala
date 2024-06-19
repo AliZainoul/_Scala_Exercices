@@ -10,9 +10,7 @@ object Exercice9 {
       val lengths = strings.map(_.length)
 
       // Find the maximum length using reduce
-      lengths.reduce(_.max)
-      // Equivalen to:
-      // lengths.reduce((a, b) => if (a > b) a else b)
+      lengths.reduce((a, b) => if (a > b) a else b)
     }
 
     // Example list of strings
